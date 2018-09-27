@@ -1,0 +1,81 @@
+.services-icon {
+    background: #2EDACE;
+    width: 100px;
+    height: 100px;
+    line-height: 12em;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.glyphicon {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.services-icon span.glyphicon-globe {
+    font-size: 3.5em;
+    color: #FFFFFF;
+}
+.glyphicon-magnet {
+    font-size: 3.5em;
+    color: #FFFFFF;
+}
+.glyphicon-cog{
+    font-size: 3.5em;
+    color: #FFFFFF;
+}
+
+
+
+.upload-right{
+    padding: 2em 0;
+    background: #FFFF;
+}
+.upload-file input[type="file"] {
+    opacity: 0;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border: 0px;
+    outline: none;
+    position: absolute;
+    left: 47.6%;
+    top: 108px;
+    cursor: pointer;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.services-icon {
+    background: #C5C5C5;
+    width: 75px;
+    height: 75px;
+    line-height: 10em;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.glyphicon-open {
+    font-size: 4.5em;
+    color: #FFFFFF;
+}
+.upload-info{
+    text-align:center;
+    margin:3em 0 0 0;
+}
