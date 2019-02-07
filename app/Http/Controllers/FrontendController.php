@@ -52,7 +52,13 @@ class FrontendController extends Controller
     }
     public function search(Request $request)
     {
-        $video=Video::search($request->search)->get();
+        $search=$request->search;
+        $search='%'.$search.'%';
+        $video = DB::table('videos')
+            ->where('name', 'like', $search)
+            ->get();
+
+
         dd($video);
     }
 

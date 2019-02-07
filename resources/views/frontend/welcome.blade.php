@@ -63,13 +63,13 @@
                                     @foreach($chunk as $anime)
                                         <div class="col-md-3 resent-grid recommended-grid slider-first">
                                             <div class="resent-grid-img recommended-grid-img">
-                                                <a href="{{route('single',$recent)}}"><img src="@if($anime->poster=='default.png'){{Storage::disk('public')->url('poster/default.jpg')}}@else{{Storage::disk('public')->url($anime->poster)}} @endif" alt="{{$anime->name}}" /></a>
+                                                <a href="{{route('single',$anime)}}"><img src="@if($anime->poster=='default.png'){{Storage::disk('public')->url('poster/default.jpg')}}@else{{Storage::disk('public')->url($anime->poster)}} @endif" alt="{{$anime->name}}" /></a>
                                                 <div class="time small-time slider-time">
                                                     <p>{{$anime->duration}}</p>
                                                 </div>
                                             </div>
                                             <div class="resent-grid-info recommended-grid-info">
-                                                <h5><a href="{{route('single',$recent)}}" class="title">{{str_limit($anime->name,50)}}</a></h5>
+                                                <h5><a href="{{route('single',$anime)}}" class="title">{{str_limit($anime->name,50)}}</a></h5>
                                                 <div class="slid-bottom-grids">
                                                     <div class="slid-bottom-grid">
                                                         <p class="author author-info"><a href="#" class="author">{{$anime->user->name}}</a></p>

@@ -14,7 +14,7 @@
 Route::get('/', 'FrontendController@index')->name('home');
 Route::get('single/{video}', 'FrontendController@single')->name('single');
 Route::get('category/{category}', 'FrontendController@category')->name('category');
-Route::get('/search', 'FrontendController@search')->name('search');
+Route::get('/query', 'FrontendController@search')->name('search');
 Route::get('playlist','FrontendController@playlist')->name('playlist');
 Route::get('playlist/{playlist}','FrontendController@playlistSingle')->name('playlistsingle');
 Route::post('image', 'Admin\\VideoController@upload')->name('video.upload');

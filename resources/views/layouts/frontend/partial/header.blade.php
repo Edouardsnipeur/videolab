@@ -12,8 +12,8 @@
         <div id="navbar" class="navbar-collapse collapse">
             <div class="top-search">
                 <form class="navbar-form navbar-right" action="{{route('search')}}">
-                    <input type="text" class="form-control" placeholder="Search...">
-                    <input type="submit" value="" name="search">
+                    <input type="text" name="search" class="form-control" placeholder="Search...">
+                    <input type="submit" value=""  >
                 </form>
             </div>
             <div class="header-top-right">

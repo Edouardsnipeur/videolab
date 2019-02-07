@@ -115,6 +115,7 @@
 <script src="{{asset('backend/js/sweetalert2.all.js')}}"></script>
 <script>
     function deleteTag($id) {
+        console.log($id);
         const swalWithBootstrapButtons = swal.mixin({
             confirmButtonClass: 'btn btn-success',
             cancelButtonClass: 'btn btn-danger',
@@ -146,6 +147,6 @@
         }
     })
     }
-    
+
 </script>
 @endpush
